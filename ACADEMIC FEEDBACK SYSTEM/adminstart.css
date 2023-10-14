@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+
+body {
+  background: #9ee7e7;
+
+}
+
+.btn {
+  float: right;
+  background: #555;
+  padding: 10px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.widgets {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.widget {
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+
+}
+
+.widget h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.widget p.count {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.widget p.description {
+  font-size: 18px;
+  color: #666;
+}
+
+table {
+  background: #5add5e;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: collapse;
+  box-shadow: 6px 1px 15px 9px #4c404275;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+table th {
+  background-color: #6c7ae0;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+table tr:nth-child(odd) {
+  background-color: #cacaca
+}
+
+a {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	/*margin-right: 10px;*/
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+  background-color: black;
+}
+h1,h3{
+  display: flex;
+  justify-content: center;
+}
+.table{
+  display: flex;
+  justify-content: center;
+}
+@media print{
+  .btn , a {
+    visibility: hidden;
+  }
+  body{
+    visibility: visible;
+  }
+}

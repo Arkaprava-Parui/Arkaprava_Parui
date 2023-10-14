@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #1dbfcf2e;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  div {
+    padding: 5px;
+  }
+  .h1{
+    display: flex;
+    justify-content: center; 
+    padding-top: 20%; 
+    color: green;
+    padding-bottom: 10px;
+  }
+  .p{
+    display: flex;
+    justify-content: center; 
+    color: green;
+    font-size: 18px;
+  }
+  a {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: .7;
+  }
+  @media print{
+    .btn , a {
+      visibility: hidden;
+    }
+    body{
+      visibility: visible;
+    }
+  }
